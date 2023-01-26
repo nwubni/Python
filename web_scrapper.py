@@ -1,3 +1,7 @@
+'''
+This Python program scrapes a website (http://books.toscrape.com) to check if a book title on a specific topic is in stock.
+To achieve it, this program uses the Python library called BeautifulSoup for pulling data from HTML and XML files.
+'''
 import re
 from unicodedata import category
 import requests
